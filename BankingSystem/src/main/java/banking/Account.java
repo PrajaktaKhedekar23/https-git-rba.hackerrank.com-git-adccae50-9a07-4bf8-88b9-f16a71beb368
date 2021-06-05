@@ -17,16 +17,19 @@ public abstract class Account {
 	private double balance;
 
 	protected Account(AccountHolder accountHolder, Long accountNumber, int pin, double startingDeposit) {
-		// complete the constructor
+		this.accountHolder = accountHolder;
+		this.accountNumber = accountNumber;
+		this.pin = pin;
+		this.startingDeposit = startingDeposit;
 	}
 
 	public AccountHolder getAccountHolder() {
-		// complete the function
-        return null;
+		private int idNumber;
+
+        return idNumber;
 	}
 
 	public boolean validatePin(int attemptedPin) {
-		// complete the function
         return true;
 	}
 
